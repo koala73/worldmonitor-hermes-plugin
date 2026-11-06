@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "worldmonitor",
+  "version": "0.1.0",
+  "description": "Connect Hermes to WorldMonitor for source-aware global intelligence on country risk, conflicts, markets, energy, shipping and natural hazards.",
+  "author": {
+    "name": "Elie Habib",
+    "url": "https://github.com/koala73"
+  },
+  "homepage": "https://worldmonitor.app",
+  "repository": "https://github.com/koala73/worldmonitor-hermes-plugin",
+  "license": "MIT",
+  "keywords": [
+    "worldmonitor",
+    "mcp",
+    "global-intelligence",
+    "geopolitics",
+    "country-risk",
+    "markets",
+    "shipping"
+  ],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": {
+        "worldmonitor": {
+          "trust": "untrusted"
+        }
+      }
+    }
+  }
+}
